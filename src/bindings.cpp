@@ -1,4 +1,3 @@
-#include <iostream>
 #include <nan.h>
 #include <cmath>
 #include <algorithm>
