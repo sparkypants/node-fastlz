@@ -1,8 +1,8 @@
-#include <nan.h>
-#include <cmath>
-#include <algorithm>
-#include <cstdlib>
-#include "fastlz.h"
+#include <nan.h> // pulls in Nan and v8 namespaces
+#include <cmath> // std::ceil
+#include <algorithm> // std::max
+#include <cstdlib> // std::malloc std::realloc
+#include "fastlz.h" // fastlz_*
 
 NAN_METHOD(CompressSync) {
   if (info.Length() == 2 && node::Buffer::HasInstance(info[0]) && info[1]->IsUint32()) {
