@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node-gyp rebuild",
-    "test": "npm run build && tap ./test/*.tap.js"
+    "test": "npm run build && tap ./test/*.tap.js",
+    "install": "node-gyp rebuild"
   },
   "keywords": [
     "fastlz",
@@ -19,5 +20,17 @@
   },
   "devDependencies": {
     "tap": "^5.8.0"
-  }
+  },
+  "gypfile": true,
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparkyPants/node-fastlz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SparkyPants/node-fastlz/issues"
+  },
+  "homepage": "https://github.com/SparkyPants/node-fastlz#readme"
 }
