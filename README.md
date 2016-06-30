@@ -1,5 +1,7 @@
 # node-fastlz
 
+[![Build Status](https://travis-ci.org/sparkypants/node-fastlz.svg?branch=master)](https://travis-ci.org/sparkypants/node-fastlz)
+
 This is the start of some bindings to [FastLZ](http://fastlz.org/). FastLZ is an
 implementation of lz77 which may not get the best compression ratio, but is
 relatively CPU efficient.
