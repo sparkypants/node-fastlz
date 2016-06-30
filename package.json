@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SparkyPants/node-fastlz.git"
+    "url": "git+https://github.com/sparkypants/node-fastlz.git"
   },
   "bugs": {
-    "url": "https://github.com/SparkyPants/node-fastlz/issues"
+    "url": "https://github.com/sparkypants/node-fastlz/issues"
   },
-  "homepage": "https://github.com/SparkyPants/node-fastlz#readme"
+  "homepage": "https://github.com/sparkypants/node-fastlz#readme"
 }
